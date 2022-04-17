@@ -15,7 +15,7 @@ A plugin which tracks the meta description character count in the Article Edit v
   <li> Event Used - <b>onContentPrepareForm</b> </li>
   <li> Follows Joomla! coding standards - <b>Yes</b> </li>
   <li> Follows Joomla! naming conventions - <b>Yes</b> </li>
-  <li> PHPCS codesniffer verified - <b>Yes</b> </li>
+  <li> PHP codesniffer verified - <b>Yes</b> </li>
 </ul>
   
 ## Folder Structure
@@ -26,3 +26,5 @@ A plugin which tracks the meta description character count in the Article Edit v
     │   └── script.js
     └── metacharactercount.php
     └── metacharactercount.xml
+
+## Process Flowchart
