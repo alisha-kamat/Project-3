@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<extension type="plugin" group="content" method="upgrade">
+	<name>Meta Description character counter</name>
+	<creationDate>04/2022</creationDate>
+	<author>Alisha Kamat</author>
+	<description>Counts characters of the meta description field</description>
+	<files>
+		<filename plugin="metacharactercount">metacharactercount.php</filename>
+	</files>
+	<media folder="media" destination="plg_content_metacharactercount">
+		<folder>js</folder>	
+	</media>
+	<languages>
+		<language tag="en-GB">language/en-GB.plg_content_metacharactercount.ini</language>
+	</languages>
+	<config>
+		<fields name="params">
+			<fieldset name="basic">
+				<field
+					name="desc_length"
+					type="number"
+					default="160"
+					hint="160"
+					label="AK_META_DESC_LENGTH"
+					min="1"
+					step="1"
+					filter="integer"
+					required= "true"
+				/>
+			</fieldset>
+		</fields>
+	</config>
+</extension>
