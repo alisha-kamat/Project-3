@@ -28,3 +28,4 @@ A plugin which tracks the meta description character count in the Article Edit v
     └── metacharactercount.xml
 
 ## Process Flowchart
+<img src="https://github.com/alisha-kamat/Project-3/blob/3f1680fa9f9d7abbf222b2943f5b57cd68f935f5/images/flowchart.png" width=60% height=60%>
